@@ -1,0 +1,498 @@
+_ Non Functionna; 
+
+Performance Testing 
+
+- Jmeter 
+	- Differnet Elemtns of Jmeter 
+	- How to Record your script
+		Record via Jmeter recoder
+		Record using Jmeter recording Template
+		Record using Blazemeter 
+	- How to inject Load 
+	- How to configure Plugins manager
+	- How to use different types of Thread Groups
+		ultimate
+		Concurrents 
+		steping up 
+- Samplers 
+	HTTP
+	FTP
+	JDBC	
+	JUNIT
+	WebDrier 
+
+
+
+Homework 
+- Create a Jmeter Prpoject
+- Record ascript using Jmeter recording template
+- apply 3 types of diffrent thread group 
+
+If time permits - record a script usgin Blazemeter. 
+https://opensource-demo.orangehrmlive.com/index.php
+
+
+
+<a href="(.*?)">
+
+
+
+Create a JMeter Project 
+- Impllement	
+	- Simple Controleer
+	- Transaction Controleer 
+	- Loop
+	- Random
+	- Random Order
+	
+	
+
+POST https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials
+
+POST data:
+txtUsername=Admin&installation=&Submit=LOGIN&actionID=&_csrf_token=940a7ef1b150b82028e880988f94efca&hdnUserTimeZoneOffset=5.5&txtPassword=admin123
+
+Cookie Data:
+PHPSESSID=f1a7e6ebfc121d3cda3ebcc3704fbc8d
+
+CSRF - Cross Site Request Forgery 
+
+Correlation - Extrating value from One sampler's response and pass it to another sampler's request 
+Why:
+	For Session Management 
+	
+ <input name="installation" id="installation" type="hidden" value="" /><input type="hidden" name="_csrf_token" value="f7f1f2a085cb937fab10e85d45163a8b" id="csrf_token" />  
+
+
+
+0b5a5dc8efe812028eb184f04a9852a5
+be3e65c474b128a18079e237fa511fdc 
+
+
+- Controller 
+	Simple 
+	TransactionLoop
+	Runtime 
+	Once Only 
+	If
+	While 
+	Throuput 
+	ForEach 
+	Random
+	Random Order 
+	Iterleave 
+	RegEx Estractor 
+	JsoPath Extractor 
+	CSV Data Config 
+	
+	
+	
+<html>
+<head>
+<title>Learn Jmeter</title>
+</head>
+<body></body>
+</html>
+
+
+Pre - Before our sript execution 
+	CSV Data Config
+	Parce HTML URL 
+
+Post - After ouur script execution 
+		RegEd Extrator 
+		JSONPth Extrator 
+		
+
+
+<script src="https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/sUR7lb61f0c.js?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="ThJUe" nonce="PRT5tte3"></script>
+
+
+Jmeter recording > Iject Loada > sampler > Controller > Pre ad Post-processors > responcse Code / Schema / Format / Availability of Element / Avaialbiliyty of repcord /Text 
+
+
+
+Online Shoping 
+
+1. Login  										
+2. Search for a product 					
+3. Select a product and add to cart
+4. Select Address 
+5. Make Payment 
+
+
+
+- Create a script 
+	 Add Response Assertioon 
+	 Add Xpath Assertion 
+	 Add differnt timers 
+	 
+	 
+Form 
+
+First name 
+Lat name 
+Age 
+phone number 
+
+200
+{
+fname:shailesh
+lname:gohel
+age:35
+phone:9766556656
+}
+
+jdbc:mysql://<databaseserverip>:<db_server_port>/<db_name>
+
+jdbc:mysql://localhost:3306/jdbc_sampler
+
+
+
+1. Create a JMeter Project 
+2. Add a Thread Group 
+3. Add HTTP Sampler 
+4. Add HTT request Defaults from Config Element. 
+5. Add server name in HTTP Request Default, dont add erver name in HTTP request 
+6. Run your script 
+
+Crate a FTP SAmpler (Use ftp.dlpuser.com website )
+
+Create a JDBC request 
+
+
+JMeter Distributed Execution
+==============================
+1. Generate rmi-keystore file 
+
+	- Run create-rmi-keystore (create-rmi-keystore.bat for windows) file. 
+	- Enter "rmi" in name, keep ll the other options blank except password
+	- Enter changeit as password
+	- Click enter, it will generate rmi-keystor file
+2. Run jmeter-server and copy the IP
+3. Add ip in host_name in jmeter .properties 
+4. In JMeter go to Run > Start > select distributed server name 
+
+
+API Testing
+
+API Endpont (URL)
+Methods 
+Payload / body 
+respons cod enterResponce message 
+
+
+
+
+XML 
+
+<parent>
+	<child1>test</child1>
+	<child2>text2</child2>
+</parent>
+<parent> 
+
+
+{
+key:value`,
+key1:{
+		chinldkey:value,
+		childkey1:value
+		}
+"Name":[shailesh, sasmir, alisha, amar]
+
+}
+
+
+REST - Get request
+Select Method 
+Add URL 
+Select 
+
+
+POST 
+
+Insert into table values (name, shailesh) 
+
+
+NEWMAN 
+- Instal NPM (if you dont have) 
+- Install NEWMAN 
+	npm -g install newman
+- Export your collection (it will be a json file)
+- Run the command - newman run <collectin name>
+
+To install htmlextra report
+npm install -g newman-reporter-htmlextra
+
+Postmant Assertionss:
+
+- Status code - 200/201/400/404/405 
+- Status message
+- Responce body  - Json values 
+- Responce body contains a a value 
+- response Headers 
+
+
+
+- Crete a Get Rerquest (Use reqrers.in) - Preferably via variable 
+- Add assertions from sippet
+	- Respoce code 
+	Response status message 
+	Json Key 
+	JSON body ocntains 
+	Response Time 
+- Add assertions by your self without useing snippet 
+
+
+
+How to add a request - get /post / put and Delete 
+How to add variable 
+How to add assertions 
+How to run request from command line 
+
+
+https://www.dataaccess.com/webservicesserver/NumberConversion.wso
+
+
+
+
+
+ - Create a new workspace, import your existing collection in it. 
+ - Share the workspace. 
+ - Create a monitor in your shared workspace and see it. 
+	To create monitor 
+		Go to your collection
+		Go to - Create monitor
+		Give monitor name
+		Click on Create a monitor 
+		See web - Go to youur monitor 
+		Manually run it few times and ass if all the exectins aregetng monitored. 
+		
+{
+	"userId" : 4
+}
+		
+		
+Data Drivem 
+- create a request which has atleast one Environment Vvariable. 
+- create a CSV file with one or more entry for those env variable(s) 
+- Go to collection runner > Select CSV File 
+- Check preview 
+- Run 
+
+
+Similarly . create a JSON file and selecti n runner and run 
+
+[
+{
+	"userId" : 4
+}
+]
+
+
+
+
+https://www.getpostman.com/collections/7897cfd1be6ae22e29ce
+
+
+Create a product - {PST API} - ProuctId in Resposee 
+Next is Get Product details API - Prodct Id 
+Update product detail - ProductId 
+
+
+
+POSTMAN 
+- Postman Installation 
+- Adding various requests - SOAP and REST 
+	SOAP - POST 
+	REST - Get Post, Delete, Put 
+- How to parameterize 
+- How to add Variables 
+	Global 
+	Collection 
+	Environment 
+	Local
+	Data 
+- Pre- request script - Execute before reqest 
+- Test - Execute after request 
+	- Assertions in test 
+	- Sippet availae 
+- Workspace
+- Monitors 
+- API Documentations 
+- Running test Data driven Mode 
+- API Cchaining 
+- Remote Execution 
+- Execute via Command - Newman 
+- CI/CD Integration via Jenkins 
+
+Here I am Anjana, please reach out to me if anything urgent 8617375944
+
+- RestAssured - 
+
+WHat is RestAssured
+How to configure 
+How to send a Get Request 
+pathparam
+query param 
+Assertions 
+How to send a  post request 
+
+
+
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
+
+
+
+
+"<empName>Lavanya Gowda</empName>" 
+"<empAddress>abc</empAddress>"
+"<mobileNumber>1592211560</mobileNumber>" 
+"<department>abc</department>" 
+"<project>abc</project>"
+"<teamLead>abc</teamLead>"
+"<salary>10000</salary>"
+"<joiningDate>11-10-19</joiningDate>"
+
+shailesh.simplilearn@dispostable.com
+
+http://coop.apps.symfonycasts.com/api/1526/toiletseat-down
+
+
+Authentication 
+	- Basic 
+	- Oauth 
+	- Logging 
+- Log 
+- BDD 
+
+
+- Add log4J maven dependency 
+- Create a Logger objerct 
+- Create Log4j.properties file 
+- Add logger in your program. 
+
+Behaviour Driven Development
+
+
+
+
+
+
+io.cucumber.junit.UndefinedStepException: The step "I want to write a step with precondition" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I want to write a step with precondition")
+public void i_want_to_write_a_step_with_precondition() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given("some other precondition")
+public void some_other_precondition() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I complete action")
+public void i_complete_action() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("some other action")
+public void some_other_action() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("yet another action")
+public void yet_another_action() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the outcomes")
+public void i_validate_the_outcomes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check more outcomes")
+public void check_more_outcomes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+=======================================================================================
+Create a RestAssured Project 
+Create a framework structure 
+	- BaseClass
+		- Defining your URI
+		- Logger
+		- All the other 
+	
+	Utility Class
+		- Reader (Property Reader, Excel Reader) 
+	
+	Impl 
+		- Geeter seeter (to get and Set Values) 
+	- Test Class 
+		Write all your test methods 
+
+============================================================================================
+
+C - Create - Post 
+R - Retrieve - Get 
+U - Update - Put
+D - Delete
+
+Create a Postman Request 
+- Get 
+- Create an environment Variable for Query string 
+- Add a Test 
+	Assert Status code - 200 
+	Assert - total : 12 , First email : michale.lawson@reqres.in, the last last_name: howel 
+- Create a CSV File - Add one column for query string value. 
+- Run the request from Runner - Run data driven 
+- Export your collection, run from newman 
+- Create a Jenkins pipeline, add your newman command in one of the job 
+
+
+Create a request in RestAssured 
+
+JMETER 
+- Create a JMETER project 
+- add a request 
+- Injec the load 
+- CRUD Operation 
+	Test Methods -  4 Test Methods 
+	
+
+
+
+
+
+
+
+
+
+
+
+
